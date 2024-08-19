@@ -1,0 +1,36 @@
+name: travel_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  get: 4.6.6
+  google_fonts: ^6.2.1
+  video_player: ^2.8.6
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/videos/Abidjan..mp4
+    - assets/videos/Paris..mp4
+    - assets/videos/Newyork..mp4
+    - assets/videos/Tokyo.mp4
+    - assets/videos/Dubai.mp4
+    - assets/images/carbonfiber.png
+    - assets/images/abidjan.png
+    - assets/images/paris.png
+    - assets/images/newyork.png
